@@ -57,15 +57,15 @@ for train, test in kfold.split(x, decode(y)):
     print('x_train shape:', x[train].shape)
 
     cnn = Sequential()
-
     cnn.add(Reshape((x.shape[1], 1), input_shape=(x.shape[1], )))
+    
     cnn.add(Conv1D(32,3,  activation='relu',padding='same'))
     cnn.add(AveragePooling1D(3))
+    
     cnn.add(Conv1D(64,3, activation='relu',padding='same'))
-
     cnn.add(AveragePooling1D(3))
+    
     cnn.add(Conv1D(64,3,  activation='relu',padding='same'))
-
     cnn.add(Conv1D(128,3, activation='relu',padding='same'))
     cnn.add(Conv1D(128,3, activation='relu',padding='same'))
     cnn.add(AveragePooling1D(3))
