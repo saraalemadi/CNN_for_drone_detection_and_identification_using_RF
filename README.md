@@ -1,6 +1,6 @@
 # CNN_for_drone_detection_and_identification_using_RF
 
-This repository contains the code of the CNN and RNN architectures for drone detection and idenitifcation using RF proposed in **Drone Detection Approach Based on Radio-Frequency Using Convolutional Neural Network** paper. 
+This repository contains the code of the CNN architectures for drone detection and idenitifcation using RF proposed in **Drone Detection Approach Based on Radio-Frequency Using Convolutional Neural Network** paper. 
 
 The publication can be found [here](https://ieeexplore.ieee.org/document/9089489).
 
